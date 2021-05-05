@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  jenkins:
+    container_name: 'jenkins'
+    image: jenkins/jenkins
+    ports: 
+      - "8080:8080"
+    volumes:
+      - "$PWD/jenkins:/var/jenkins"
+    networks:
+      - net
+
+networks:
+  net:
+
