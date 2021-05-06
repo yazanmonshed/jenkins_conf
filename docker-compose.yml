@@ -10,7 +10,6 @@ services:
       - "$PWD/jenkins:/var/jenkins"
     networks:
       - net
-
 networks:
   net:
 
