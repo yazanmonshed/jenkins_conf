@@ -10,6 +10,13 @@ services:
       - "$PWD/jenkins:/var/jenkins"
     networks:
       - net
+  centos-host:
+    container_name: centos-host
+    image: centos
+    build:
+      context: centos
+    networks:
+      - net
 networks:
   net:
 
