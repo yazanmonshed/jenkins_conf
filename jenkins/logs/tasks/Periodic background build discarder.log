@@ -1,0 +1,66 @@
+Started at Thu Dec 30 11:25:23 UTC 2021
+Processing KB_2/kb_db_backup
+Offering KB_2/kb_db_backup to Project Build Discarder
+Processing KB_2/kb_site_backup
+Offering KB_2/kb_site_backup to Project Build Discarder
+Processing KB_2/kb_status_code
+Offering KB_2/kb_status_code to Project Build Discarder
+Processing KB/kb_db_backup
+Offering KB/kb_db_backup to Project Build Discarder
+Processing KB/kb_site_backup
+Offering KB/kb_site_backup to Project Build Discarder
+Processing KB/kb_status_code
+Offering KB/kb_status_code to Project Build Discarder
+Processing JOB_2/kb_db_backup
+Offering JOB_2/kb_db_backup to Project Build Discarder
+Processing JOB_2/kb_site_backup
+Offering JOB_2/kb_site_backup to Project Build Discarder
+Processing JOB_2/kb_status_code
+Offering JOB_2/kb_status_code to Project Build Discarder
+Finished at Thu Dec 30 11:25:23 UTC 2021. 8ms
+Started at Thu Dec 30 12:25:23 UTC 2021
+Processing jenkins_backup
+Offering jenkins_backup to Project Build Discarder
+Processing KB_2/kb_db_backup
+Offering KB_2/kb_db_backup to Project Build Discarder
+Processing KB_2/kb_site_backup
+Offering KB_2/kb_site_backup to Project Build Discarder
+Processing KB_2/kb_status_code
+Offering KB_2/kb_status_code to Project Build Discarder
+Processing KB/kb_db_backup
+Offering KB/kb_db_backup to Project Build Discarder
+Processing KB/kb_site_backup
+Offering KB/kb_site_backup to Project Build Discarder
+Processing KB/kb_status_code
+Offering KB/kb_status_code to Project Build Discarder
+Processing JOB_2/kb_db_backup
+Offering JOB_2/kb_db_backup to Project Build Discarder
+Processing JOB_2/kb_site_backup
+Offering JOB_2/kb_site_backup to Project Build Discarder
+Processing JOB_2/kb_status_code
+Offering JOB_2/kb_status_code to Project Build Discarder
+Finished at Thu Dec 30 12:25:23 UTC 2021. 6ms
+Started at Thu Dec 30 13:25:23 UTC 2021
+Processing KB_2/kb_db_backup
+Offering KB_2/kb_db_backup to Project Build Discarder
+Processing KB_2/kb_site_backup
+Offering KB_2/kb_site_backup to Project Build Discarder
+Processing KB_2/kb_status_code
+Offering KB_2/kb_status_code to Project Build Discarder
+Processing KB/kb_db_backup
+Offering KB/kb_db_backup to Project Build Discarder
+Processing KB/kb_site_backup
+Offering KB/kb_site_backup to Project Build Discarder
+Processing KB/kb_status_code
+Offering KB/kb_status_code to Project Build Discarder
+Processing JOB_2/kb_db_backup
+Offering JOB_2/kb_db_backup to Project Build Discarder
+Processing JOB_2/kb_site_backup
+Offering JOB_2/kb_site_backup to Project Build Discarder
+Processing JOB_2/kb_status_code
+Offering JOB_2/kb_status_code to Project Build Discarder
+Processing jenkins_backups/jenkins_backup_conf
+Offering jenkins_backups/jenkins_backup_conf to Project Build Discarder
+Processing ACSD/ACSD_DB_BACKUP
+Offering ACSD/ACSD_DB_BACKUP to Project Build Discarder
+Finished at Thu Dec 30 13:25:23 UTC 2021. 14ms

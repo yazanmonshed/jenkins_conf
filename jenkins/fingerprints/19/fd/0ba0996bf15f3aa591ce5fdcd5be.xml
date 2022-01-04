@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-12-26 08:19:39.723 UTC</timestamp>
+  <md5sum>19fd0ba0996bf15f3aa591ce5fdcd5be</md5sum>
+  <fileName>Credential id=AWS_ACCESS_KEY name=ACCESS KEY</fileName>
+  <usages>
+    <entry>
+      <string>ACSD/ACSD_DB_BACKUP</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>KB/kb_db_backup</string>
+      <ranges>1-24</ranges>
+    </entry>
+    <entry>
+      <string>KB/kb_site_backup</string>
+      <ranges>1-3</ranges>
+    </entry>
+    <entry>
+      <string>jenkins_backups/jenkins_backup_conf</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,19 @@
+version: '3.6'
+services:
+  jenkins:
+    container_name: 'jenkins'
+    image: jenkins/jenkins:2.326-jdk11
+    user: root
+    restart: always
+    ports: 
+      - "8080:8080"
+      - "443:443"
+      - "80:80"
+    volumes:
+      -  $PWD/jenkins:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - net
+networks:
+  net:
+
