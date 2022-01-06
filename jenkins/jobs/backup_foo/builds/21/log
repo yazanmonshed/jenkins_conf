@@ -1,0 +1,26 @@
+Started by user [8mha:////4Htf7kK3DuqLK4/eeYmW3Mnkpmn9kUzKYP7Ek5kK4Fo5AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup_sites
+[SSH] script:
+PATH="/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+PATHBACKUPS="/var/opt"
+PATHFILES="/var/www/"
+JOB_BASE_NAME="backup_sites"
+FILEBACKUP="sitetwo.com"
+
+/usr/local/vardot/devops_scripts/scripts.sh $PATHFILES $PATHBACKUPS $FILEBACKUP $JOB_BASE_NAME
+
+[SSH] executing...
+check if backups path /var/opt/ exsist...
+sitetwo.com/
+sitetwo.com/index.html
+backup files is SECESSFULLY!!
+upload backup files to AWS S3 bicket...
+fatal error: Unable to locate credentials
+upload to s3 is FAUILED!!!
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

@@ -19,5 +19,14 @@
       <timeout>0</timeout>
       <pty>false</pty>
     </org.jvnet.hudson.plugins.CredentialsSSHSite>
+    <org.jvnet.hudson.plugins.CredentialsSSHSite>
+      <hostname>143.198.148.25</hostname>
+      <username>root</username>
+      <port>22</port>
+      <credentialId>IDRoot</credentialId>
+      <serverAliveInterval>0</serverAliveInterval>
+      <timeout>0</timeout>
+      <pty>false</pty>
+    </org.jvnet.hudson.plugins.CredentialsSSHSite>
   </sites>
 </org.jvnet.hudson.plugins.SSHBuildWrapper_-DescriptorImpl>

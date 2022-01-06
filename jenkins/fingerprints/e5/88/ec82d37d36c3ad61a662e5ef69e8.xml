@@ -12,6 +12,10 @@
       <string>KB/kb_site_backup</string>
       <ranges>1-3</ranges>
     </entry>
+    <entry>
+      <string>aacpa/aacp_file</string>
+      <ranges>1-74</ranges>
+    </entry>
   </usages>
   <facets/>
 </fingerprint>

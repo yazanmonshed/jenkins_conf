@@ -1,0 +1,83 @@
+Started by user [8mha:////4Htf7kK3DuqLK4/eeYmW3Mnkpmn9kUzKYP7Ek5kK4Fo5AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup_platform
+[SSH] script:
+ENVIRONMENT="master"
+PROJECT_ID="da2xqgulvr6gw"
+JOB_BASE_NAME="backup_platform"
+
+/usr/local/vardot/devops_scripts/platforms.sh $PROJECT_ID $ENVIRONMENT $JOB_BASE_NAME 
+
+[SSH] executing...
+check if var/vardot/backups/backup_platform exsits...
+start backup_platform backup...
+Downloading files from all remote mounts to /var/vardot/backups/backup_platform
+
+Are you sure you want to continue? [Y/n] y
+
+Downloading files from .console to /var/vardot/backups/backup_platform/.console
+Running command: 'rsync' '--archive' '--compress' '--human-readable' '-v' 'da2xqgulvr6gw-master-7rqtwti--app@ssh.de-2.platform.sh:.console/' '/var/vardot/backups/backup_platform/.console'
+
+  receiving incremental file list
+  
+  sent 20 bytes  received 50 bytes  15.56 bytes/sec
+  total size is 0  speedup is 0.00
+
+
+Downloading files from docroot/sites/default/files to /var/vardot/backups/backup_platform/docroot/sites/default/files
+Running command: 'rsync' '--archive' '--compress' '--human-readable' '-v' 'da2xqgulvr6gw-master-7rqtwti--app@ssh.de-2.platform.sh:docroot/sites/default/files/' '/var/vardot/backups/backup_platform/docroot/sites/default/files'
+
+  receiving incremental file list
+  
+  sent 453 bytes  received 132.45K bytes  24.16K bytes/sec
+  total size is 756.32M  speedup is 5,690.78
+
+
+Downloading files from tmp to /var/vardot/backups/backup_platform/tmp
+Running command: 'rsync' '--archive' '--compress' '--human-readable' '-v' 'da2xqgulvr6gw-master-7rqtwti--app@ssh.de-2.platform.sh:tmp/' '/var/vardot/backups/backup_platform/tmp'
+
+  receiving incremental file list
+  
+  sent 20 bytes  received 247 bytes  59.33 bytes/sec
+  total size is 726.98K  speedup is 2,722.76
+
+
+Downloading files from .drush to /var/vardot/backups/backup_platform/.drush
+Running command: 'rsync' '--archive' '--compress' '--human-readable' '-v' 'da2xqgulvr6gw-master-7rqtwti--app@ssh.de-2.platform.sh:.drush/' '/var/vardot/backups/backup_platform/.drush'
+
+  receiving incremental file list
+  
+  sent 22 bytes  received 4.64K bytes  1.04K bytes/sec
+  total size is 710.00K  speedup is 152.26
+
+
+Downloading files from drush-backups to /var/vardot/backups/backup_platform/drush-backups
+Running command: 'rsync' '--archive' '--compress' '--human-readable' '-v' 'da2xqgulvr6gw-master-7rqtwti--app@ssh.de-2.platform.sh:drush-backups/' '/var/vardot/backups/backup_platform/drush-backups'
+
+  receiving incremental file list
+  
+  sent 105 bytes  received 2.57K bytes  594.00 bytes/sec
+  total size is 5.78M  speedup is 2,162.79
+
+
+Downloading files from private to /var/vardot/backups/backup_platform/private
+Running command: 'rsync' '--archive' '--compress' '--human-readable' '-v' 'da2xqgulvr6gw-master-7rqtwti--app@ssh.de-2.platform.sh:private/' '/var/vardot/backups/backup_platform/private'
+
+  receiving incremental file list
+  
+  sent 344 bytes  received 58.58K bytes  13.09K bytes/sec
+  total size is 2.41M  speedup is 40.84
+
+database dump is SECCESSFULY!!
+database dump is completed.
+uploading backups to aws S3...
+upload backup_platform backups to AWS S3 IS SECESSFULLY!!
+upload platform.sh databases backups is compeleted...
+remove backup after upload to S3...
+deleted backup_platform backups is SECESSFULLY!!!
+finshed deleted backup_platform backups.
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

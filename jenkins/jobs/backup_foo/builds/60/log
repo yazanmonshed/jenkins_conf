@@ -1,0 +1,29 @@
+Started by user [8mha:////4Htf7kK3DuqLK4/eeYmW3Mnkpmn9kUzKYP7Ek5kK4Fo5AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup_sites
+[SSH] script:
+PATH="/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+PATHBACKUPS="/var/vardot/backups"
+AWS_SECRET_KEY=**********
+PATHFILES="/var/www/"
+JOB_BASE_NAME="backup_sites"
+FILEBACKUP="html"
+AWS_ACCESS_KEY=**********
+
+/usr/local/vardot/devops_scripts/scripts.sh $PATHFILES $PATHBACKUPS $FILEBACKUP $JOB_BASE_NAME $AWS_ACCESS_KEY $AWS_SECRET_KEY
+
+[SSH] executing...
+check if backups path /var/vardot/backups/backup_sites/ exsist...
+/var/vardot/backups/backup_sites/ not found...creating...
+html/
+html/index.nginx-debian.html
+backup files is SECESSFULLY!!
+upload backup files to AWS S3 bicket...
+Completed 524 Bytes/524 Bytes (5.5 KiB/s) with 1 file(s) remainingupload: ../vardot/backups/backup_sites/backup_sites_site_06-01-2022-14-58-34.tar.gz to s3://vardot-backups/ovh_backups/backups_sites/backup_sites/backup_sites_site_06-01-2022-14-58-34.tar.gz
+upload to S3 is SECCSSFULY!!!
+retaind backups is SECCSSFULY!!
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

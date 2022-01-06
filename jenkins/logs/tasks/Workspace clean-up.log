@@ -1,11 +1,13 @@
-Started at Thu Dec 30 03:56:36 UTC 2021
-Checking KB_2 » kb_db_backup
-Checking KB_2 » kb_site_backup
-Checking KB_2 » kb_status_code
+Started at Thu Jan 06 12:30:18 UTC 2022
+Checking backup_platform
+Checking backup_sites
 Checking KB » kb_db_backup
 Checking KB » kb_site_backup
 Checking KB » kb_status_code
-Checking JOB_2 » kb_db_backup
-Checking JOB_2 » kb_site_backup
-Checking JOB_2 » kb_status_code
-Finished at Thu Dec 30 03:56:36 UTC 2021. 20ms
+Checking Jenkins Backups Configuration » jenkins_backup_conf
+Checking foo » kb_db_backup
+Checking foo » kb_site_backup
+Checking foo » kb_status_code
+Checking ACSD » ACSD_DB_BACKUP
+Checking aacpa » aacp_file
+Finished at Thu Jan 06 12:30:18 UTC 2022. 9ms

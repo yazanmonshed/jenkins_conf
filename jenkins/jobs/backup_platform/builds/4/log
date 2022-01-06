@@ -1,0 +1,64 @@
+Started by user [8mha:////4Htf7kK3DuqLK4/eeYmW3Mnkpmn9kUzKYP7Ek5kK4Fo5AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup_platform
+[SSH] script:
+ENVIRONMENT="master"
+PROJECT_ID="da2xqgulvr6gw"
+
+/usr/local/vardot/devops_scripts/scripts.sh $PROJECT_ID $ENVIRONMENT
+
+[SSH] executing...
+Downloading files from all remote mounts to .
+
+Are you sure you want to continue? [Y/n] y
+
+Downloading files from .console to .console
+  Warning: Permanently added the RSA host key for IP address '35.246.248.138' to the list of known hosts.
+  receiving incremental file list
+  
+  sent 20 bytes  received 50 bytes  20.00 bytes/sec
+  total size is 0  speedup is 0.00
+
+Downloading files from docroot/sites/default/files to .//docroot/sites/default/files
+  receiving incremental file list
+  ./
+  .htaccess
+  embed-gallery.png
+  embed-media.png
+  2021-10/
+  2021-10/Dur Communities Video.mp4
+  2021-10/alrawdhah_compound_2.jpg
+  2021-10/dur-alwadi.png
+  2021-10/group-2.png
+  2021-10/img_7616-hdr.jpg
+  2021-10/img_7860-hdr.jpg
+  2021-10/img_8269-hdr.jpg
+  2021-10/img_8334-hdr.jpg
+  2021-10/twuaiq_0.jpg
+  2021-11/
+  2021-11/About Us 2.png
+  2021-11/About us.jpg
+  2021-11/Community-Darraq.png
+  2021-11/Darraq 2.jpg
+  2021-11/Darraq's Apartments2.jpg
+  2021-11/Darraq.jpg
+  2021-11/Darraq1.jpg
+  2021-11/Darraq10.jpg
+  2021-11/Darraq21.jpg
+  2021-11/Darraq3.jpg
+  2021-11/Darraq4.jpg
+  2021-11/Darraq7.jpg
+  2021-11/Dur AlBader.jpg
+  2021-11/Dur AlBader05.jpg
+  2021-11/Dur AlSharaq.jpg
+  2021-11/Dur AlWadi.jpeg
+  2021-11/Dur AlWadi01.jpeg
+  2021-11/Dur AlWadi02.jpeg
+  2021-11/Dur AlWadi02_0.jpeg
+  2021-11/Dur AlWadi03.jpeg
+  2021-11/Dur AlWadi04.jpeg
+  2021-11/Dur AlWadi07.jpeg
+  2021-11/Dur AlWadi08.jpeg
+Build was aborted
+Aborted by [8mha:////4Htf7kK3DuqLK4/eeYmW3Mnkpmn9kUzKYP7Ek5kK4Fo5AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+Finished: ABORTED

@@ -1,0 +1,16 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/aacpa/aacp_file
+[SSH] script:
+**********=************************************************************************************************************************
+**********
+**********
+
+[SSH] executing...
+bash: =: command not found
+
+[SSH] completed
+[SSH] exit-status: 127
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE
